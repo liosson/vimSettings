@@ -166,6 +166,20 @@ map <F7> :tabn<CR>
 "   c-w up, c-w down to move focus between windows
 "   c-w T move current split window into its own tab
 
+" Exploring/Manipulating the filesystem
+"   e . open directory view at current working directory
+"   tabe . open directory view in the new tab at current working directory
+"   sp . open directory view in the horizontal split at current working directory
+"   vs . open directory view in the vertical split at current working directory
+"   E[xplore] open directory view in the current file directory
+"   Sex[plore] open directory view int the horizontal split in the current file directory
+"   Vex[plore] open directory view int the vertical split in the current file directory
+"   % create a new file
+"   d create a new directory
+"   R rename under cursor
+"   D delete under cursor
+"   :help netrw
+
 " sessions
 "   :mksession mysession.vim
 "   :source mysession.vim
